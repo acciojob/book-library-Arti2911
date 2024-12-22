@@ -12,10 +12,10 @@ body{
 	display:flex;
 	justify-content:center;
 }
-.book .author{
+.book :nth-child(3){
 	color:#777777;
 }
-.book button{
+.book :last-child{
 	background-color:#2ecc71;
 	width:100%;
 	border:none;
